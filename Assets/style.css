@@ -1,0 +1,20 @@
+
+.jumbotron {
+    color: white;
+    background-image: linear-gradient(#f07b2e9c, #df1f6696), url("https://cdn.pixabay.com/photo/2016/02/19/11/25/business-1209705_1280.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    clip-path: polygon(0% 0%, 0% 85%, 50% 100%, 100% 85%, 100% 0%);
+    
+  }
+
+img {
+    
+    border-radius: 50%;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    
+}
