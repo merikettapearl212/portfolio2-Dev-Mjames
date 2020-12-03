@@ -9,11 +9,15 @@
     clip-path: polygon(0% 0%, 0% 85%, 50% 100%, 100% 85%, 100% 0%);
     position: relative;
   }
-
-  nav {
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.301); 
-  }
+a {
+  color: white;
+}
+.navbar {
+  z-index: 999;
+  position: absolute;
+  background-color: transparent;
+    
+}
 
 img {
     border: 8px solid white;
@@ -23,6 +27,8 @@ img {
     height: 200px;
     position: absolute;
     margin-top: -8rem;
+    /* -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); */
     
 }
 .icon-menu, i {
