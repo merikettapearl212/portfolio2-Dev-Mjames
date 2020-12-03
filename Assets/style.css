@@ -7,14 +7,17 @@
     background-size: cover;
     height: 70vh;
     clip-path: polygon(0% 0%, 0% 85%, 50% 100%, 100% 85%, 100% 0%);
-    
+    position: relative;
   }
 
 img {
-    
+    border: 8px solid white;
     border-radius: 50%;
     object-fit: cover;
     width: 200px;
     height: 200px;
+    position: absolute;
+    margin-top: -8rem;
     
 }
+
