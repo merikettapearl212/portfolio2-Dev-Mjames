@@ -1,14 +1,24 @@
-
+* {
+  font-family: 'Manrope', sans-serif;
+  
+}
 .jumbotron {
     color: white;
-    background-image: linear-gradient(#f07b2e9c, #df1f6696), url("https://cdn.pixabay.com/photo/2016/02/19/11/25/business-1209705_1280.jpg");
+    text-align: center;
+    background-image: linear-gradient(#2ef0f0a6, #1d1c1cc7), url("https://cdn.pixabay.com/photo/2016/02/19/11/25/business-1209705_1280.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
+    height: 65vh;
     clip-path: polygon(0% 0%, 0% 85%, 50% 100%, 100% 85%, 100% 0%);
     position: relative;
+    line-height: 1rem;
   }
+
+  /* h1 {
+    font-family: 'Manrope', sans-serif;
+  } */
+
 a {
   color: white;
 }
@@ -27,6 +37,7 @@ img {
     height: 200px;
     position: absolute;
     margin-top: -8rem;
+    
     /* -webkit-filter: grayscale(100%);
   filter: grayscale(100%); */
     
@@ -36,3 +47,25 @@ img {
     margin: .5rem;
 }
 
+ul.icon-menu {
+  padding-inline-start: 0px;
+  
+}
+
+.jumbo {
+  margin-top: 5rem;
+  
+}
+
+.skills {
+  background-image: linear-gradient(#2ef0f093, #1d1c1cc7), url("https://images.unsplash.com/photo-1571974096020-5c2775ac5d47?ixid=MXwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDJ8fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+.display-4 {
+  font-size: 2rem;
+}
+}
