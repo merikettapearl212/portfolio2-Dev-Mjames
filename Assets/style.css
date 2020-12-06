@@ -4,19 +4,20 @@
 body {
   background-color: rgb(44, 87, 90);
 }
+
 .jumbotron {
     color: white;
     text-align: center;
-    background-image: linear-gradient(#383737a4, #0e8d8db9 ), url("https://cdn.pixabay.com/photo/2016/02/19/11/25/business-1209705_1280.jpg");
+    background-image: linear-gradient(#383737a4, rgba(14, 141, 141, 0.692) ), url("https://cdn.pixabay.com/photo/2016/02/19/11/25/business-1209705_1280.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
-    clip-path: polygon(0% 0%, 0% 85%, 50% 100%, 100% 85%, 100% 0%);
+    height: 100vh;
     position: relative;
-    line-height: 1rem;
+    line-height: 2rem;
   }
-  #instaIcon, #linkIcon, #gitIcon {
+
+#instaIcon, #linkIcon, #gitIcon {
   background: #ff6363;
   border-radius: 10%;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -24,22 +25,19 @@ body {
   text-align: center;
 }
  
-  /* h1 {
-    font-family: 'Manrope', sans-serif;
-  } */
+.navbar {
+  position: absolute;
+  top: 0;
+}
+
 .little-header {
   font-family: 'Playball', cursive;
   color: teal;
   font-size: 1.5rem;
 }
+
 a {
   color: white;
-}
-.navbar {
-  z-index: 999;
-  position: absolute;
-  background-color: transparent;
-    
 }
 
 .profile-img {
@@ -48,9 +46,6 @@ a {
     object-fit: cover;
     width: 200px;
     height: 200px;
-    position: absolute;
-    margin-top: -8rem;
-    
     /* -webkit-filter: grayscale(100%);
   filter: grayscale(100%); */
     
@@ -58,6 +53,7 @@ a {
 .works-img {
   border: 5px solid teal;
 }
+
 .icon-menu, i{
     font-size: 2rem;
     margin: .5rem;
@@ -75,7 +71,7 @@ li, a {
 }
 
 .jumbo {
-  margin-top: 5rem;
+  margin-top: 10rem;
   
 }
 
@@ -85,16 +81,16 @@ li, a {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.progress {
-  margin: 1rem;
-}
+
 
 .fa-chevron-down {
   color: #ff6363;
-  bottom: 10px;
+  position: absolute;
+  bottom: 50px;
   cursor: pointer;
   
 }
+
 .bounce {
   animation: bounce 2s;
   animation-iteration-count: 5;
@@ -119,7 +115,10 @@ li, a {
   text-align: center;
 }
 
-
+.project-images {
+  object-fit: cover;
+  
+}
 
 @media only screen and (max-width: 600px) {
 .display-4 {
