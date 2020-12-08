@@ -93,7 +93,7 @@ li, a {
 
 .bounce {
   animation: bounce 2s;
-  animation-iteration-count: 5;
+  animation-iteration-count: infinite;
 }
 
 @keyframes bounce {
